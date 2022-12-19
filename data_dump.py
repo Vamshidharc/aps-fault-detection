@@ -20,7 +20,7 @@ if __name__=="__main__":
 
     # insert converted json to mongo DB
     client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
-    print("DB is created")
+    print("DB is created. Plz check")
     
     
 
